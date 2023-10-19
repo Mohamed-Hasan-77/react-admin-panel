@@ -1,0 +1,25 @@
+@import "../../styles/responsive.scss";
+
+
+.MuiDataGrid-toolbarContainer {
+    flex-direction: row-reverse;
+
+}
+
+
+.MuiDataGrid-root {
+
+    @include sm {
+        width: 270px;
+    }
+
+    @include lg {
+        max-width: 600px;
+    }
+
+    @include lg {
+        max-width: 700px;
+    }
+
+
+}

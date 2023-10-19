@@ -1,0 +1,55 @@
+@import '../../styles/variables.scss';
+@import "../../styles/responsive.scss";
+
+
+
+.menus {
+
+    .container,
+    .menuItem {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .menuItem {
+            margin-bottom: 20px;
+
+            .menuItemTitle {
+                font-size: 12px;
+                font-weight: 200;
+                color: $soft-color ;
+
+                @include lg {
+                    display: none;
+                }
+            }
+
+
+            .menuLink {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                padding: 10px;
+                border-radius: 5px;
+
+                img {
+                    width: max-content;
+                }
+
+                &:hover {
+                    background-color: $soft-bg;
+                }
+
+                .listItemTitle {
+                    @include lg {
+                        display: none;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+
+}

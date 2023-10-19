@@ -1,0 +1,29 @@
+.topBox {
+    .dealsList {
+
+        .userDeal {
+            display: flex;
+            gap: 10px;
+            margin: 25px 0;
+            align-items: center;
+            font-size: 12px;
+            justify-content: space-between;
+
+            .userData {
+                display: flex;
+                gap: 15px;
+                align-items: center;
+            }
+
+            img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+
+            .amount {
+                font-weight: 500;
+            }
+        }
+    }
+}
