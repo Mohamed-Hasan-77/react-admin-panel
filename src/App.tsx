@@ -2,10 +2,11 @@ import Home from "./Components/Home/Home"
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Products from "./Components/Products/Products";
 import Layout from "./Components/Layout/Layout";
-import './styles/global.scss'
 import Users from "./Components/Users/Users";
 import User from "./Components/User/User";
 import Product from "./Components/product/product";
+import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+import './styles/global.scss'
 
 
 
