@@ -3,7 +3,7 @@ import Single from "../Single/Single";
 
 export default function User() {
     return (
-        <div className="user flex">
+        <div className="user">
             <Single {...singleUser} />
         </div>
     )

@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <nav>
             <div className="logo">
-                <img src='logo.svg' alt="logo" />
+                <img src='/logo.svg' alt="logo" />
                 <span>Admin Panel</span>
             </div>
 

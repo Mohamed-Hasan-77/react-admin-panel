@@ -1,4 +1,3 @@
-import './Products.scss'
 import { products } from "../../Data";
 import Add from "../Add/Add";
 import DataTable from "../DataTable/DataTable";

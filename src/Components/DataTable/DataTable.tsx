@@ -33,9 +33,9 @@ export default function DataTable(props: Props) {
 
 
     return (
-        <div className="usersTable max-w-96 overflow-hidden">
+        <div className="usersTable max-w-96 overflow-hidden mt-5">
             <DataGrid
-                className=" mt-3"
+                className=" mt-5"
                 rows={props.rows}
                 columns={[...props.columns, actionsColumn]}
                 initialState={{
