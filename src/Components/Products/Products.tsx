@@ -2,7 +2,7 @@ import './Products.scss'
 import { products } from "../../Data";
 import Add from "../Add/Add";
 import DataTable from "../DataTable/DataTable";
-import { GridColDef, GridValueGetterParams } from "@mui/x-data-grid";
+import { GridColDef } from "@mui/x-data-grid";
 import { useState } from 'react'
 
 

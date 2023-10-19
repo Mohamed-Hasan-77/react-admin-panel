@@ -1,4 +1,4 @@
-import { BarChart, Bar, ResponsiveContainer, Tooltip, AreaChart, CartesianGrid, XAxis, YAxis, Area } from 'recharts';
+import { ResponsiveContainer, Tooltip, AreaChart, XAxis, YAxis, Area } from 'recharts';
 import './waveChart.scss'
 
 
