@@ -7,7 +7,6 @@ export default function Footer() {
                 <p className='font-bold'> Admin Dashboard  </p>
                 <p className='text-sm'> Made by &copy; Mohame Hasan </p>
             </div>
-
         </footer>
     )
 }
