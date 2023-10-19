@@ -18,7 +18,6 @@ export default function Menu() {
                                     <i className={`fa-solid fa-${listItem.icon} text-white`}></i>
                                     <span className='listItemTitle'> {listItem.title} </span>
                                 </Link>
-
                             </>
                         })}
                     </div>
