@@ -8,7 +8,7 @@ import WaveChart from '../HomeBoxes/WaveChart/WaveChart'
 
 const Home = () => {
 
-    console.log(chartBoxUser);
+
     return <>
 
         <section className="home">
