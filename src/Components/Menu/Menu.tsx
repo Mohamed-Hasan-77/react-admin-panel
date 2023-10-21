@@ -1,4 +1,4 @@
-import './Menu.scss'
+import './Menus.scss'
 import { Link } from 'react-router-dom';
 import { menu } from '../../Data'
 
