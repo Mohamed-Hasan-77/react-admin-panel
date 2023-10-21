@@ -22,7 +22,7 @@ export default function DataTable(props: Props) {
         renderCell: (params: any) => {
             return <div className="actions flex gap-4">
                 <Link to={`/${props.users}/${params.row.id}`} className="text-sm px-1 py-1 ">
-                    <img src="/view.svg" alt="view user" />
+                    <img src="/view.svg" alt="view user Page" />
                 </Link>
                 <Link to={'/'} className="text-sm px-1 py-1 " onClick={() => { handleDelete(params.row.id) }}>
                     <img src="delete.svg" alt="delete user" />
